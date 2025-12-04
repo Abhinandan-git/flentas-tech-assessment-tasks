@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Abhinandan Jain - CV</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			line-height: 1.6;
+			color: #333;
+			background-color: #f5f5f5;
+		}
+
+		.container {
+			max-width: 900px;
+			margin: 40px auto;
+			background: white;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+		}
+
+		header {
+			background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+			color: white;
+			padding: 40px;
+			text-align: center;
+		}
+
+		h1 {
+			font-size: 2.5em;
+			margin-bottom: 10px;
+			font-weight: 600;
+		}
+
+		.subtitle {
+			font-size: 1.1em;
+			margin-bottom: 20px;
+			opacity: 0.95;
+		}
+
+		.contact-info {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			gap: 20px;
+			font-size: 0.95em;
+		}
+
+		.contact-info a {
+			color: white;
+			text-decoration: none;
+			transition: opacity 0.3s;
+		}
+
+		.contact-info a:hover {
+			opacity: 0.8;
+		}
+
+		.content {
+			padding: 40px;
+		}
+
+		section {
+			margin-bottom: 35px;
+		}
+
+		h2 {
+			color: #667eea;
+			font-size: 1.8em;
+			margin-bottom: 20px;
+			padding-bottom: 10px;
+			border-bottom: 3px solid #667eea;
+		}
+
+		h3 {
+			color: #333;
+			font-size: 1.3em;
+			margin-bottom: 8px;
+			font-weight: 600;
+		}
+
+		.item {
+			margin-bottom: 25px;
+		}
+
+		.item-header {
+			display: flex;
+			justify-content: space-between;
+			align-items: baseline;
+			margin-bottom: 8px;
+			flex-wrap: wrap;
+		}
+
+		.date-location {
+			color: #666;
+			font-size: 0.9em;
+			font-style: italic;
+		}
+
+		.item-details {
+			color: #555;
+			margin-bottom: 5px;
+		}
+
+		ul {
+			margin-left: 20px;
+			margin-top: 10px;
+		}
+
+		li {
+			margin-bottom: 8px;
+			color: #555;
+		}
+
+		.skills-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+			gap: 15px;
+		}
+
+		.skill-item {
+			padding: 12px;
+			background: #f8f9fa;
+			border-left: 4px solid #667eea;
+			border-radius: 4px;
+		}
+
+		.skill-category {
+			font-weight: 600;
+			color: #333;
+			margin-bottom: 5px;
+		}
+
+		.skill-list {
+			color: #666;
+			font-size: 0.95em;
+		}
+
+		.tech-stack {
+			display: inline-block;
+			background: #e7eaf6;
+			padding: 4px 10px;
+			border-radius: 4px;
+			font-size: 0.9em;
+			color: #667eea;
+			margin-top: 8px;
+			font-weight: 500;
+		}
+
+		@media print {
+			body {
+				background: white;
+			}
+
+			.container {
+				box-shadow: none;
+				margin: 0;
+			}
+		}
+
+		@media (max-width: 768px) {
+			.container {
+				margin: 0;
+			}
+
+			header,
+			.content {
+				padding: 25px;
+			}
+
+			h1 {
+				font-size: 2em;
+			}
+
+			.contact-info {
+				flex-direction: column;
+				gap: 10px;
+			}
+
+			.item-header {
+				flex-direction: column;
+				align-items: flex-start;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<h1>ABHINANDAN JAIN</h1>
+			<div class="subtitle">Final Year, Pranveer Singh Institute of Technology</div>
+			<div class="contact-info">
+				<span>nandanjain04@gmail.com</span>
+				<span>+91-9118226881</span>
+				<a href="https://linkedin.com/in/abhinandanjain16" target="_blank">linkedin.com/in/abhinandanjain16</a>
+				<a href="https://github.com/abhinandan-git" target="_blank">github.com/abhinandan-git</a>
+			</div>
+		</header>
+
+		<div class="content">
+			<section>
+				<h2>INTRODUCTION</h2>
+				<p>Final-year Computer Science Engineering student with a solid foundation in problem-solving and software
+					development. Proficient in writing clean and efficient code, and applying data structures and algorithms to
+					real-world problems.</p>
+			</section>
+
+			<section>
+				<h2>EDUCATION</h2>
+				<div class="item">
+					<div class="item-header">
+						<h3>Pranveer Singh Institute of Technology</h3>
+						<span class="date-location">July 2022 – Present | Kanpur</span>
+					</div>
+					<div class="item-details">B. Tech. in Computer Science and Engineering</div>
+					<div class="item-details">CGPA: 7.75 / 10</div>
+				</div>
+
+				<div class="item">
+					<div class="item-header">
+						<h3>Senior Secondary Education, CBSE</h3>
+						<span class="date-location">2022</span>
+					</div>
+					<div class="item-details">Percentage: 83.6%</div>
+				</div>
+
+				<div class="item">
+					<div class="item-header">
+						<h3>Secondary Education, CBSE</h3>
+						<span class="date-location">2020</span>
+					</div>
+					<div class="item-details">Percentage: 89.8%</div>
+				</div>
+			</section>
+
+			<section>
+				<h2>TECHNICAL SKILLS</h2>
+				<div class="skills-grid">
+					<div class="skill-item">
+						<div class="skill-category">Programming Languages</div>
+						<div class="skill-list">C/C++, Python, JavaScript, Java, Dart, GoLang</div>
+					</div>
+					<div class="skill-item">
+						<div class="skill-category">Operating System & Tools</div>
+						<div class="skill-list">Windows, Linux, Git, Terraform, AWS</div>
+					</div>
+					<div class="skill-item">
+						<div class="skill-category">Backend & APIs</div>
+						<div class="skill-list">FastAPI, Node.js</div>
+					</div>
+					<div class="skill-item">
+						<div class="skill-category">Frontend & Mobile</div>
+						<div class="skill-list">Flutter, Next.js</div>
+					</div>
+					<div class="skill-item">
+						<div class="skill-category">Database & Scripting</div>
+						<div class="skill-list">MySQL, MongoDB, Shell scripting</div>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<h2>TECHNICAL PROJECTS</h2>
+				<div class="item">
+					<div class="item-header">
+						<h3>Audio Beat Detector (Project Leader)</h3>
+						<span class="date-location">November 2025 - Present</span>
+					</div>
+					<ul>
+						<li>Developing a Flutter application powered by a custom Dart audio-processing engine capable of performing
+							real-time FFT analysis and beat detection.</li>
+						<li>Designing a modular clean architecture with dedicated layers for audio decoding, frequency analysis,
+							visualization, and UI presentation.</li>
+					</ul>
+					<div class="tech-stack">Tech Stack: Flutter, Dart, Dart Isolates, Custom Signal-Processing Algorithms</div>
+				</div>
+
+				<div class="item">
+					<div class="item-header">
+						<h3>DecoraAI - Collaborative Interior Design Platform (Project Leader)</h3>
+						<span class="date-location">June 2025 - Present</span>
+					</div>
+					<ul>
+						<li>Designing and developing a real-time collaboration platform with WebSockets for live updates,
+							event-driven UI rendering, and image processing to enhance user experience.</li>
+						<li>Building a FastAPI backend with asynchronous task execution, targeting up to 90% faster API response
+							times and improved scalability for handling concurrent users.</li>
+						<li>Implementing a modern tech stack — Next.js, Python 3, PostgreSQL, Redis, MongoDB, and AWS — to support
+							full-stack development, caching, data persistence, and cloud deployment.</li>
+					</ul>
+					<div class="tech-stack">Tech Stack: Next.js, Python 3, PostgreSQL, Redis, MongoDB, AWS</div>
+				</div>
+
+				<div class="item">
+					<div class="item-header">
+						<h3>CI/CD Pipeline Automation</h3>
+						<span class="date-location">May 2025 - July 2025</span>
+					</div>
+					<ul>
+						<li>Configured GitHub Actions-based CI/CD pipelines to automate builds, linting, and testing for a Next.js
+							frontend and FastAPI backend.</li>
+						<li>Integrated continuous deployments to Vercel (frontend) and Render (backend) for seamless release cycles.
+						</li>
+						<li>Optimized container-based workflows with Docker for consistent development and production environments.
+						</li>
+					</ul>
+					<div class="tech-stack">Tech Stack: GitHub Actions (YAML), Docker, React.js, TailwindCSS, MongoDB</div>
+				</div>
+			</section>
+
+			<section>
+				<h2>FREELANCING PROJECT</h2>
+				<div class="item">
+					<h3>Java Project Development</h3>
+					<ul>
+						<li>Strengthened Java proficiency through continuous learning while delivering reliable, high-quality
+							solutions.</li>
+						<li>Completed projects under tight deadlines by coordinating effectively with team members and maintaining
+							clear, efficient communication.</li>
+					</ul>
+				</div>
+			</section>
+
+			<section>
+				<h2>MEMBERSHIPS</h2>
+				<div class="item">
+					<div class="item-header">
+						<h3>Technical Leader | ALGO Club</h3>
+						<span class="date-location">August 2023 - August 2024</span>
+					</div>
+					<ul>
+						<li>Led the college's ALGO Club, organising campus-wide programming contests, hackathons, and technical
+							workshops to promote problem-solving and coding skills among students.</li>
+						<li>Mentored peers in algorithms and data structures, and collaborated with faculty to enhance technical
+							engagement across the campus.</li>
+					</ul>
+				</div>
+			</section>
+
+			<section>
+				<h2>CERTIFICATIONS</h2>
+				<ul>
+					<li>Algorithms Specialization</li>
+					<li>IBM DevOps and Software Engineering Specialization</li>
+				</ul>
+			</section>
+		</div>
+	</div>
+</body>
+
+</html>
