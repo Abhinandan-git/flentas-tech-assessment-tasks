@@ -1,2 +1,1 @@
-# flentas-tech-assessment-tasks
-AWS Technical Assessment for Flentas Technologies
+# Flentas Tech Assessment Tasks
